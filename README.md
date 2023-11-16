@@ -29,8 +29,7 @@ Se han definido 6 historias de usuarios que se desarroollaron a lo largo de 5 sp
 
 Para el diseño de la página primero se crearon prototipos de baja fidelidad por cada integrante del equipo.
 
-![Prototipo de baja fidelidad ](src\img\PBF_Marce.png)
-
+![Prototipo de baja fidelidad ](https://raw.githubusercontent.com/Carolinava21/DEV011-social-network/main/src/img/prototipos.png)
 
 
 Recabando ideas de estos 3 prototipos fue que desarrollo el prototipo de alta fidelidad responsive para cada una de las interfaces en web y pantallas moviles.
