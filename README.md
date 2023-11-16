@@ -47,7 +47,7 @@ Para el desarrollo de la página se utilizarón las siguientes herramientas:
 
 
 ## 5. Despliegue de la Página
-Este es el resultado final del desaroollo de la red social " https://proyectfire1.web.app/ "
+Este es el resultado final del desarollo de la red social " https://proyectfire1.web.app/ "
 ![Despliegue Movil ](https://raw.githubusercontent.com/isadora-vargasg/DEV011-social-network/main/src/img/Desp_Movil.png)
 
 
