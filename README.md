@@ -12,7 +12,7 @@
 
 ## 2. Historias de Usuario
 
-Se han definido 6 historias de usuarios que se desarroollaron a lo largo de 5 sprints.
+Se han definido 6 historias de usuarios que se desarrollaron a lo largo de 5 sprints.
 
 ![image](https://github.com/Carolinava21/DEV011-social-network/assets/142191821/8171824a-6282-4d9b-a052-9c5228ad1131)
 
