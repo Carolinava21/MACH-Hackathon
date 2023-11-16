@@ -37,17 +37,15 @@ Recabando ideas de estos 3 prototipos fue que desarrollo el prototipo de alta fi
 ## 4. Desarrollo de la Página
 
 Para el desarrollo de la página se utilizarón las siguientes herramientas:
-JavaScript
-HTML
-CSS
-Web APIs
-Node.js
-Jets
-Git
-Github
-Firebase
-Firestore
-Visual Studio Code
+- [ ] **JavaScript**
+- [ ] **HTML**
+- [ ] **CSS**
+- [ ] **Web APIs**
+- [ ] **Node.js**
+- [ ] **Jets**
+- [ ] **Git & Github**
+- [ ] **Firebase : Firebase Auth, Firestore**
+- [ ] **Visual Studio Code**
 
 
 ## 5. Despliegue de la Página
