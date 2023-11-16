@@ -29,9 +29,7 @@ Recabando ideas de estos 3 prototipos fue que desarrollo el prototipo de alta fi
 
 ![Prototipo de alta fidelidad web](https://raw.githubusercontent.com/isadora-vargasg/DEV011-social-network/main/src/img/PAF_Web.png)
 
-![Prototipo de alta fidelidad web](https://raw.githubusercontent.com/isadora-vargasg/DEV011-social-network/main/src/img/PAF_WebHome.png)
-
-![Prototipo de alta fidelidad movil](https://raw.githubusercontent.com/isadora-vargasg/DEV011-social-network/main/src/img/Desp_Movil.png)
+![Prototipo de alta fidelidad web](https://raw.githubusercontent.com/isadora-vargasg/DEV011-social-network/main/src/img/PAF_Movil.png)
 
 
 ## 4. Desarrollo de la Página
@@ -50,6 +48,6 @@ Para el desarrollo de la página se utilizarón las siguientes herramientas:
 
 ## 5. Despliegue de la Página
 Este es el resultado final del desaroollo de la red social " https://proyectfire1.web.app/ "
-
+![Despliegue Movil ](https://raw.githubusercontent.com/isadora-vargasg/DEV011-social-network/main/src/img/Desp_Movil.png)
 
 
