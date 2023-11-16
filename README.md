@@ -1,7 +1,10 @@
 Mujer Space
+Mujer Space
 * [1. Definición de Producto](#1-definición-de-producto)
 * [2. Historias de Usuario](#2-historias-de-usuario)
 * [3. Prototipos](#3-prototipos)
+* [4. Desarrollo de la Página](#4-desarrollo-de-la-página)
+* [5. Despliegue de la Página](#5-despliegue-de-la-página)
 * [4. Desarrollo de la Página](#4-desarrollo-de-la-página)
 * [5. Despliegue de la Página](#5-despliegue-de-la-página)
 
@@ -9,10 +12,14 @@ Mujer Space
 ## 1.Definición de Producto
 
 "Mujeres SPACE" es una single page application (SPA), pensada en todas las mujeres del mundo, donde cada una tiene la oportunidad de interactuar compartiendo posts de su vida diaria, reflexiones y otra tematicas. Esta red social actua de forma dinamica permitiendo a las usuarias interactuar observando posts de otras mujeres y reaccionando dando like, quitando like, editando y eliminando posts propios.
+"Mujeres SPACE" es una single page application (SPA), pensada en todas las mujeres del mundo, donde cada una tiene la oportunidad de interactuar compartiendo posts de su vida diaria, reflexiones y otra tematicas. Esta red social actua de forma dinamica permitiendo a las usuarias interactuar observando posts de otras mujeres y reaccionando dando like, quitando like, editando y eliminando posts propios.
 
 
 ## 2. Historias de Usuario
 
+Se han definido 6 historias de usuarios que se desarroollaron a lo largo de 5 sprints.
+
+![image](https://github.com/Carolinava21/DEV011-social-network/assets/142191821/8171824a-6282-4d9b-a052-9c5228ad1131)
 Se han definido 6 historias de usuarios que se desarroollaron a lo largo de 5 sprints.
 
 ![image](https://github.com/Carolinava21/DEV011-social-network/assets/142191821/8171824a-6282-4d9b-a052-9c5228ad1131)
