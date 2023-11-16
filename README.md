@@ -2,9 +2,8 @@ Mujer Space
 * [1. Definición de Producto](#1-definición-de-producto)
 * [2. Historias de Usuario](#2-historias-de-usuario)
 * [3. Prototipos](#3-prototipos)
-* [4. Despliegue de Página](#4-despliegue-de-página)
 * [4. Desarrollo de la Página](#4-desarrollo-de-la-página)
-* [5. Despliegue de la Página](#4-despliegue-de-la-página)
+* [5. Despliegue de la Página](#5-despliegue-de-la-página)
 
 
 ## 1.Definición de Producto
@@ -55,7 +54,5 @@ Visual Studio Code
 
 
 ## 5. Despliegue de la Página
-
-## 4. Despliegue de Página
 Este es el resultado final del desaroollo de la red social " https://proyectfire1.web.app/ "
 
