@@ -31,7 +31,7 @@ export function login(navigateTo) {
 
   const imgMujeres = document.createElement('img');
   imgMujeres.setAttribute('alt', 'mujer');
-  imgMujeres.setAttribute('class', 'image
+  imgMujeres.setAttribute('class', 'image1');
   imgMujeres.src = mujeresLogo;
 
   const links = document.createElement('form');
