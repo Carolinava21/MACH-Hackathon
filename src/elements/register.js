@@ -1,5 +1,5 @@
 import { NewUser } from '../auth.js';
-import mujeress from '../img/Mujer -Space_-2.png';
+
 
 export function register(navigateTo) {
   const container1 = document.createElement('div');
@@ -31,6 +31,23 @@ export function register(navigateTo) {
   const links = document.createElement('form');
   links.setAttribute('action', '#');
   links.setAttribute('class', 'allRegister');
+
+  //Name
+  const inputName = document.createElement('input');
+  inputName.setAttribute('type', 'nombre');
+  inputName.setAttribute('id', 'idName');
+  inputName.placeholder = 'Nombre';
+  inputName.required = true;
+  //Apellido
+  const inputApellido = document.createElement('input');
+  inputApellido.setAttribute('type', 'apellido');
+  inputApellido.setAttribute('id', 'idApellido');
+  inputApellido.placeholder = 'Apellido';
+  inputApellido.required = true;
+  //Documento de identidad
+  
+  //telefono
+
 
   const inputEmail = document.createElement('input');
   inputEmail.setAttribute('type', 'email');
@@ -76,7 +93,7 @@ export function register(navigateTo) {
   footer.textContent = 'Andrea - Carolina - Marcela © 2023';
 
   container3.append(titleP1, titleP2, slogan, imgMujeres, returnButton);
-  links.append(inputEmail, inputPassword, buttonLogin);
+  links.append(inputName, inputApellido, inputEmail, inputPassword, buttonLogin);
   container2.append(container3, links);
   container1.append(container2);
 

@@ -38,11 +38,7 @@ export function login(navigateTo) {
   links.setAttribute('action', '#');
   links.setAttribute('class', 'contenido');
 //nombre 
-const inputName = document.createElement('input');
-inputName.setAttribute('type', 'nombre');
-inputName.setAttribute('id', 'idName');
-inputName.placeholder = 'Name';
-inputName.required = true;
+
 
 //apellido
 
@@ -116,7 +112,6 @@ inputName.required = true;
   container3.append(titleP1, titleP2, slogan, imgMujeres);
   container4.append(buttonNewAccount);
   links.append(
-    inputName,
     inputEmail,
     inputPassword,
     buttonLogin,
