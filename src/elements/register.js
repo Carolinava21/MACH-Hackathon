@@ -45,36 +45,40 @@ export function register(navigateTo) {
   inputApellido.placeholder = 'Apellido';
   inputApellido.required = true;
   //Documento de identidad
-  
+  const documentoId = document.createElement('input');
+  documentoId.setAttribute('type', ' Documento de identidad')
+  documentoId.setAttribute('id', 'documentoid');
+  documentoId.placeholder = 'Documento de identidad';
+  inputApellido.required = true;
+
   //telefono
+  const inputTelefono = document.createElement('input');
+  inputTelefono.setAttribute('type', ' inputTelefono');
+  inputTelefono.setAttribute('id', 'teléfono');
+  inputTelefono.placeholder = 'Teléfono';
+  inputTelefono.required = true;
 
 
   const inputEmail = document.createElement('input');
   inputEmail.setAttribute('type', 'email');
   inputEmail.setAttribute('class', 'email2');
   inputEmail.setAttribute('id', 'emailR');
-  inputEmail.placeholder = 'Registrate con tu Email';
-  inputEmail.required = 'Registrate con tu Email';
+  inputEmail.placeholder = ' Email';
+  inputEmail.required = 'Email';
 
   const inputPassword = document.createElement('input');
   inputPassword.setAttribute('type', 'password');
   inputPassword.setAttribute('class', 'password2');
   inputPassword.setAttribute('id', 'passwordR');
 
-  inputPassword.placeholder = 'Crea tu Password';
-  inputPassword.required = 'Crea tu Password';
+  inputPassword.placeholder = 'Contraseña';
+  inputPassword.required = 'Contraseña';
 
   const linkButton = document.createElement('div');
   linkButton.setAttribute('class', 'link');
 
   /* botòn para devolverse**** */
-  const returnButton = document.createElement('button');
-  returnButton.setAttribute('type', 'button');
-  returnButton.setAttribute('class', 'returnbtn');
-  returnButton.textContent = 'VOLVER';
-  returnButton.addEventListener('click', () => {
-    navigateTo('/login');
-  });
+
 
   const buttonLogin = document.createElement('button');
   buttonLogin.setAttribute('type', 'submit');
@@ -88,12 +92,17 @@ export function register(navigateTo) {
     NewUser(inputEmail.value, inputPassword.value);
   });
 
-  const footer = document.createElement('footer');
-  footer.setAttribute('class', 'footer');
-  footer.textContent = 'Andrea - Carolina - Marcela © 2023';
 
-  container3.append(titleP1, titleP2, slogan, imgMujeres, returnButton);
-  links.append(inputName, inputApellido, inputEmail, inputPassword, buttonLogin);
+
+  container3.append(titleP1);
+  links.append(
+   inputName,
+   inputApellido,
+   documentoId,
+   inputTelefono,
+   inputEmail,
+   inputPassword,
+   buttonLogin);
   container2.append(container3, links);
   container1.append(container2);
 

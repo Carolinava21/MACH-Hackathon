@@ -11,8 +11,6 @@ const routes = [
   { path: '/wall', component: home },
   { path: '/error', component: error },
   { path: '/register', component: register },
-  // { path: '/wallPage', component: wallPage },
-  // { path: '/firebase', component: firebase },
 ];
 
 const defaultRoute = '/';

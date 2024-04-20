@@ -8,7 +8,7 @@ import {
   likePost,
 } from '../lib/index.js';
 import { auth } from '../auth.js';
-import mujeresLogo from '../img/Mujer -Space_-2.png';
+import LogoMACH from '../img/LogoMACH.cb23ff6edde7962bb0dee9f9740cd26833354b0b.png';
 import edit from '../img/editar.png';
 import erase from '../img/eliminar.png';
 import likes from '../img/like.png';
@@ -18,11 +18,16 @@ export function home(navigateTo) {
   const section = document.createElement('section');
   const title = document.createElement('h2');
   title.setAttribute('class', 'postitle');
-  title.textContent = 'Bienvenida a MUJER SPACE';
+  title.textContent = 'MACH';
+
+  const saludo = document.createElement('h3');
+  saludo.setAttribute = ('class', 'saludo')
+  saludo.textContent = 'Bienvenida/o de vuelta!'
+
   const buttonExit = document.createElement('button');
   buttonExit.setAttribute('type', 'submit');
   buttonExit.setAttribute('class', 'buttonexit');
-  buttonExit.textContent = 'Salir';
+  buttonExit.textContent = 'Cerrar sesión';
   buttonExit.addEventListener('click', () => {
     navigateTo('/login');
   });
@@ -30,10 +35,10 @@ export function home(navigateTo) {
   // imgMujeres1.setAttribute('alt', 'mujer1');
   // imgMujeres1.setAttribute('class', 'image2');
   // imgMujeres1.src = 'img/MUJERES1.png';
-  const imgMujeres = document.createElement('img');
-  imgMujeres.setAttribute('alt', 'mujer');
-  imgMujeres.setAttribute('class', 'image2');
-  imgMujeres.src = mujeresLogo;
+  const logoMach = document.createElement('img');
+  logoMach.setAttribute('alt', 'mujer');
+  logoMach.setAttribute('class', 'logoMach');
+  logoMach.src = LogoMACH;
   const postContainer = document.createElement('div');
   postContainer.setAttribute('class', 'post-container');
   const postTitle = document.createElement('input');
@@ -132,6 +137,6 @@ export function home(navigateTo) {
   postContainerInner.setAttribute('class', 'post-container-inner');
   postContainerInner.append(postTitle, postButton);
   postContainer.append(postContainerInner);
-  section.append(title, buttonExit, imgMujeres, postContainer, publicationPost);
+  section.append(title, saludo, postContainer, publicationPost, buttonExit, logoMach);
   return section;
 }

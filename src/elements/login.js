@@ -1,5 +1,4 @@
 import { authGoogle, loginEmail } from '../auth.js';
-import mujeresLogo from '../img/Mujer -Space_-2.png';
 import gooGle from '../img/logo_google_icon_143197.png';
 
 export function login(navigateTo) {
