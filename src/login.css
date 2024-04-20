@@ -6,11 +6,12 @@
   font-family: "Quicksand", sans-serif;
 }
 body {
-  background-image: url('img/Mujer -Space_-4.png'); /* Reemplaza 'ruta/de/la/imagen.jpg' con la ruta de tu imagen*/
+  background-image: url(''); /* Reemplaza 'ruta/de/la/imagen.jpg' con la ruta de tu imagen*/
   /* background-size: cover; */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 85%; /*tamaño punta cafe   */
+  background-color: #6200EE;
  }
 .flex {
   display: flex;
@@ -90,7 +91,7 @@ form input {
   transition: 0.2s ease;
 }
 .login:hover {
-  background: #F4EFFD;
+  background: #6925e8;
   border: 1.5px solid #0B0B0A;
 }
  .google-button {

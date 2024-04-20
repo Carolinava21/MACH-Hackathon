@@ -10,23 +10,23 @@ export function register(navigateTo) {
 
   const container3 = document.createElement('div');
   container3.setAttribute('class', 'text');
-
+//titulo
   const titleP1 = document.createElement('h1');
   titleP1.setAttribute('class', 'title1');
-  titleP1.textContent = 'MUJER';
+  titleP1.textContent = 'MACH';
 
   const titleP2 = document.createElement('h2');
   titleP2.setAttribute('class', 'title2');
-  titleP2.textContent = '-Space-';
+  titleP2.textContent = '';
 
   const slogan = document.createElement('p');
   slogan.setAttribute('class', 'slogan');
-  slogan.textContent = 'Conectadas las Mujeres de todo el mundo';
+  slogan.textContent = '';
 
   const imgMujeres = document.createElement('img');
   imgMujeres.setAttribute('alt', 'mujer');
   imgMujeres.setAttribute('class', 'image1');
-  imgMujeres.src = mujeress;
+ 
 
   const links = document.createElement('form');
   links.setAttribute('action', '#');

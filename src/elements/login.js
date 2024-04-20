@@ -37,6 +37,14 @@ export function login(navigateTo) {
   const links = document.createElement('form');
   links.setAttribute('action', '#');
   links.setAttribute('class', 'contenido');
+//nombre 
+const inputName = document.createElement('input');
+inputName.setAttribute('type', 'nombre');
+inputName.setAttribute('id', 'idName');
+inputName.placeholder = 'Name';
+inputName.required = true;
+
+//apellido
 
   const inputEmail = document.createElement('input');
   inputEmail.setAttribute('type', 'email');
@@ -108,6 +116,7 @@ export function login(navigateTo) {
   container3.append(titleP1, titleP2, slogan, imgMujeres);
   container4.append(buttonNewAccount);
   links.append(
+    inputName,
     inputEmail,
     inputPassword,
     buttonLogin,
